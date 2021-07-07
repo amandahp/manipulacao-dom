@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>DOM</h1>
+  <p>DOM = Objeto</p>
+
+  <h2>Como acessar o DOM?</h2>
+  <p>Em seu console do browser, escreva "document"</p>
+  <img src="src/img/document.jpg">
+
+  <h2>Selecionando um componente da árvore</h2>
+  <p>Para selecionar algum componente da arvore do dom, é necesssário a utilização do método querySelector.</p>
+  <p>Suponhámos que você gostaria de acessar a tag p de sua árvore, basta escrever o seguinte comando eu seu console
+    document.querySelector('p'). Você também pode acessar o coponente utilizando seu ID e classe.
+  </p>
+  <img src="src/img/querySelector.png">
+
+  <h2>Selecionando o conteúdo do componente</h2>
+  <p>Para selecionar o conteúdo de um componente especifico é necessário utilizar o método querySelector + textContent</p>
+  <p><b>document.querySelector('p').textContent</b></p>
+  <img src="src/img/textContet.png">
+
+  <h2>Mudando o conteúdo do componente</h2>
+  <p>Para mudar o conteúdo de um componente é necessário utilizar o seguinte comando document.querySelector('p').textContent = 'exemplo'</p>
+  <img src="src/img/newTextContet.png">
+</body>
+</html>
